@@ -2,3 +2,23 @@
 
     font-family: 'Indie Flower', cursive;
 }
+
+.titulodifi {
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.corfacil {
+   background-color: rgb(255, 150, 31);
+   
+}
+
+.cormedio {
+    background-color: rgb(115, 124, 252);
+}
+
+.cordificil {
+    background-color: rgb(255, 174, 0);
+}
