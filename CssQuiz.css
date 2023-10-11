@@ -1,4 +1,13 @@
-.titulo{
-
+.TituloHome{
+    text-align: center;
     font-family: 'Indie Flower', cursive;
+    font-size: 70px;
+    color: white;
+}
+
+.Opcoes{
+    
+   font-size: 30px;
+   color: aquamarine;
+   text-decoration: none;
 }
