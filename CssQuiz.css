@@ -3,6 +3,8 @@
     font-family: 'Indie Flower', cursive;
     font-size: 70px;
     color: white;
+    text-shadow: 2px 2px 5px blue;
+    
 }
 
 .titulodifi {
@@ -27,7 +29,19 @@
 
 .Opcoes{
     
-   font-size: 30px;
-   color: aquamarine;
-   text-decoration: none;
+   font-size: 40px;
+   color: black;
+   list-style-type: none;
+   text-align: center;
+   padding: 5%;
+   
+}
+
+.opcoesClicar{
+
+background: blue;
+display: block;
+margin: 0 auto 30px auto;
+width: 500px;
+
 }
