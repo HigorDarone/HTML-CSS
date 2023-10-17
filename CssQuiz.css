@@ -1,8 +1,15 @@
+body{
+    background-image: url(fundoDoJogo.jpg);
+}
+
+
 .TituloHome{
     text-align: center;
     font-family: 'Indie Flower', cursive;
     font-size: 70px;
     color: white;
+    text-shadow: 2px 2px 5px blue;
+    
 }
 
 .titulodifi {
@@ -68,8 +75,32 @@
 
 .Opcoes{
     
-   font-size: 30px;
-   color: aquamarine;
-   text-decoration: none;
+
+    font-size: 40px;
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    padding: 5%;
 }
 
+
+.opcoesClicar{
+
+background: rgb(0, 255, 115);
+display: block;
+margin: 0 auto 30px auto;
+width: 500px;
+height: 50x;
+border-radius: 40px;
+font-family: 'Chicle', serif;
+}
+
+.opcoesClicar:hover{
+border-radius: 40px;
+border-color: aquamarine;
+width: 600px;
+height: 80px;
+text-align: center;
+font-size: 60px;
+
+ }
