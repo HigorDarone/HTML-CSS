@@ -1,3 +1,10 @@
+body{
+    background-image: url(fundoDoJogo.jpg);
+}
+
+
+
+
 .TituloHome{
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -39,9 +46,21 @@
 
 .opcoesClicar{
 
-background: blue;
+background: rgb(0, 255, 115);
 display: block;
 margin: 0 auto 30px auto;
 width: 500px;
-
+height: 50x;
+border-radius: 40px;
+font-family: 'Chicle', serif;
 }
+
+.opcoesClicar:hover{
+border-radius: 40px;
+border-color: aquamarine;
+width: 600px;
+height: 80px;
+text-align: center;
+font-size: 60px;
+
+ }
