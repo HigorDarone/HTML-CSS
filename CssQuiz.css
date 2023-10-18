@@ -84,23 +84,117 @@ body{
 }
 
 
-.opcoesClicar{
-
-background: rgb(0, 255, 115);
+.opcoesClicarJogar{
+color:azure;
 display: block;
 margin: 0 auto 30px auto;
 width: 500px;
 height: 50x;
 border-radius: 40px;
 font-family: 'Chicle', serif;
+background-color: rgb(88, 88, 253);
 }
 
-.opcoesClicar:hover{
+.opcoesClicarJogar:hover{
 border-radius: 40px;
-border-color: aquamarine;
 width: 600px;
 height: 80px;
 text-align: center;
 font-size: 60px;
-
+background-color: rgb(36, 36, 236);
+transition: 1000ms;
+border: 4px white inset;
+text-shadow: 2px 2px rgb(0, 0, 0);
  }
+
+ .opcoesClicarCadastro{
+
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 500px;
+    height: 50x;
+    border-radius: 40px;
+    font-family: 'Chicle', serif;
+    background-color: pink;
+    }
+    
+    .opcoesClicarCadastro:hover{
+    border-radius: 40px;
+    width: 600px;
+    height: 80px;
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(226, 98, 119);
+    transition: 1000ms;
+    border: 4px white inset;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    }
+
+    .opcoesClicarHistorico{
+
+        display: block;
+        margin: 0 auto 30px auto;
+        width: 500px;
+        height: 50x;
+        border-radius: 40px;
+        font-family: 'Chicle', serif;
+        background-color: rgb(236, 96, 255);
+        }
+        
+        .opcoesClicarHistorico:hover{
+        border-radius: 40px;
+        width: 600px;
+        height: 80px;
+        text-align: center;
+        font-size: 60px;
+        background-color: rgb(127, 20, 141);
+        transition: 1000ms;
+        border: 4px white inset;
+        text-shadow: 2px 2px rgb(255, 255, 255);
+        }
+    
+        .opcoesClicarRanking{
+
+            display: block;
+            margin: 0 auto 30px auto;
+            width: 500px;
+            height: 50x;
+            border-radius: 40px;
+            font-family: 'Chicle', serif;
+            background-color: rgb(167, 71, 247);
+            }
+            
+            .opcoesClicarRanking:hover{
+            border-radius: 40px;
+            width: 600px;
+            height: 80px;
+            text-align: center;
+            font-size: 60px;
+            background-color: rgb(119, 7, 211);
+            transition: 1000ms;
+            border: 4px white inset;
+            text-shadow: 2px 2px rgb(255, 255, 255);
+            }
+
+            .opcoesClicarTorneio{
+
+                display: block;
+                margin: 0 auto 30px auto;
+                width: 500px;
+                height: 50x;
+                border-radius: 40px;
+                font-family: 'Chicle', serif;
+                background-color: rgb(252, 87, 230);
+                }
+                
+                .opcoesClicarTorneio:hover{
+                border-radius: 40px;
+                width: 600px;
+                height: 80px;
+                text-align: center;
+                font-size: 60px;
+                background-color: rgb(180, 15, 158);
+                transition: 1000ms;
+                border: 4px white inset;
+                text-shadow: 2px 2px rgb(255, 255, 255);
+                }
