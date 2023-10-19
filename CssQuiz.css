@@ -101,7 +101,8 @@ transition: 1000ms;
     color: black;
     list-style-type: none;
     text-align: center;
-    padding: 5%;
+    margin-top: 300px;
+    
 }
 
 
@@ -125,18 +126,18 @@ font-size: 60px;
 background-color: rgb(36, 36, 236);
 transition: 1000ms;
 border: 4px white inset;
-text-shadow: 2px 2px rgb(0, 0, 0);
+text-shadow: 4px 4px rgb(0, 0, 0);
  }
 
  .opcoesClicarCadastro{
-
+    color:azure;
     display: block;
     margin: 0 auto 30px auto;
     width: 500px;
     height: 50x;
     border-radius: 40px;
     font-family: 'Chicle', serif;
-    background-color: pink;
+    background-color: rgb(253, 64, 95);
     }
     
     .opcoesClicarCadastro:hover{
@@ -145,14 +146,14 @@ text-shadow: 2px 2px rgb(0, 0, 0);
     height: 80px;
     text-align: center;
     font-size: 60px;
-    background-color: rgb(226, 98, 119);
+    background-color:rgb(240, 30, 65);
     transition: 1000ms;
     border: 4px white inset;
-    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-shadow: 4px 4px black;
     }
 
     .opcoesClicarHistorico{
-
+        color:azure;
         display: block;
         margin: 0 auto 30px auto;
         width: 500px;
@@ -171,11 +172,11 @@ text-shadow: 2px 2px rgb(0, 0, 0);
         background-color: rgb(127, 20, 141);
         transition: 1000ms;
         border: 4px white inset;
-        text-shadow: 2px 2px rgb(255, 255, 255);
+        text-shadow: 4px 4px black;
         }
     
         .opcoesClicarRanking{
-
+            color:azure;
             display: block;
             margin: 0 auto 30px auto;
             width: 500px;
@@ -194,11 +195,11 @@ text-shadow: 2px 2px rgb(0, 0, 0);
             background-color: rgb(119, 7, 211);
             transition: 1000ms;
             border: 4px white inset;
-            text-shadow: 2px 2px rgb(255, 255, 255);
+            text-shadow: 4px 4px black;
             }
 
             .opcoesClicarTorneio{
-
+                color:azure;
                 display: block;
                 margin: 0 auto 30px auto;
                 width: 500px;
@@ -217,7 +218,7 @@ text-shadow: 2px 2px rgb(0, 0, 0);
                 background-color: rgb(180, 15, 158);
                 transition: 1000ms;
                 border: 4px white inset;
-                text-shadow: 2px 2px rgb(255, 255, 255);
+                text-shadow: 4px 4px black;
                 }
 
  .titulofacil {
@@ -246,3 +247,12 @@ text-shadow: 2px 2px rgb(0, 0, 0);
     margin-right: 5px;
   }
 
+.imgLogo{
+    
+    margin: auto 450px;
+    position: absolute;
+    width: 800px;
+    bottom: 100px;
+   
+
+}
