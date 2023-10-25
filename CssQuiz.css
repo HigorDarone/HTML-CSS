@@ -29,6 +29,275 @@ a:visited {
     color: white;
 }
 
+.card{
+    --border-width: 1px;
+    position: relative;
+    margin: 20px 38%;
+    display: inline-block;
+    border-radius: 1rem;
+   
+    
+
+    padding: var(--border-width);
+
+   overflow: hidden ;
+
+    cursor: pointer;
+}
+
+.borda{
+position: absolute;
+inset: 0;
+border-radius: inherit;
+
+opacity: 0;
+transition: 500ms;
+
+}
+
+.borda::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    top: 48%;
+    left: 50%;
+    min-width: 150%;
+    min-height: 200%;
+    aspect-ratio: 1/1;
+    background: conic-gradient(from 0deg, rgb(148, 245, 148), rgb(96, 245, 96), rgb(29, 233, 29), rgb(3, 145, 3));
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: rotate 5s linear infinite;
+    
+
+
+}
+
+
+@keyframes rotate{
+
+    to{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+.content {
+   
+position: relative;
+border-radius: inherit;
+padding: 1rem .75rem;
+box-shadow: inset 0 0 0 1px;
+background:black;
+
+
+min-width: 400px;
+min-height: 150px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+text-align: center;
+}
+
+
+.card:hover .borda{
+opacity: 1 ;
+}
+
+
+.cardMedio{
+    --border-width: 1px;
+    position: relative;
+    margin: 20px 38%;
+    display: inline-block;
+    border-radius: 1rem;
+   
+    
+
+    padding: var(--border-width);
+
+    overflow: hidden ;
+
+    cursor: pointer;
+}
+
+.bordaMedio{
+position: absolute;
+inset: 0;
+border-radius: inherit;
+
+opacity: 0;
+transition: 500ms;
+
+}
+
+.bordaMedio::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    top: 48%;
+    left: 50%;
+    min-width: 150%;
+    min-height: 200%;
+    aspect-ratio: 1/1;
+    background: conic-gradient(from 0deg, rgb(248, 248, 125),rgb(201, 201, 85), rgb(172, 172, 47),rgb(75, 75, 2));
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: rotate 5s linear infinite;
+    
+
+
+}
+
+
+@keyframes rotate{
+
+    to{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+.contentMedio {
+   
+position: relative;
+border-radius: inherit;
+padding: 1rem .75rem;
+box-shadow: inset 0 0 0 1px;
+background:black;
+
+
+min-width: 400px;
+min-height: 150px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+text-align: center;
+}
+
+
+.cardMedio:hover .bordaMedio{
+opacity: 1 ;
+}
+
+
+
+
+
+.cardDificil{
+    --border-width: 1px;
+    position: relative;
+    margin: 20px 38%;
+    display: inline-block;
+    border-radius: 1rem;
+   
+    
+
+    padding: var(--border-width);
+
+    overflow: hidden ;
+
+    cursor: pointer;
+}
+
+.bordaDificil{
+position: absolute;
+inset: 0;
+border-radius: inherit;
+
+opacity: 0;
+transition: 500ms;
+
+}
+
+.bordaDificil::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    top: 48%;
+    left: 50%;
+    min-width: 150%;
+    min-height: 200%;
+    aspect-ratio: 1/1;
+    background: conic-gradient(from 0deg, rgb(252, 138, 138),rgb(250, 81, 81), rgb(185, 23, 23), rgb(97, 3, 3) );
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: rotate 5s linear infinite;
+    
+
+
+}
+
+
+@keyframes rotate{
+
+    to{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+.contentDificil {
+   
+position: relative;
+border-radius: inherit;
+padding: 1rem .75rem;
+box-shadow: inset 0 0 0 1px;
+background:black;
+
+
+min-width: 400px;
+min-height: 150px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+text-align: center;
+}
+
+
+.cardDificil:hover .bordaDificil{
+opacity: 1 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .corfacil  {
    background-color: rgb(255, 150, 31);
